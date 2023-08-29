@@ -5105,7 +5105,7 @@ input[type="button"].btn-block {
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
   padding: 1.25rem;
-  height: 265px;
+  height: 160px;
 }
 
 .card-title {
@@ -11567,7 +11567,7 @@ textarea.form-control {
 }
 
 .section {
-  padding: 80px 0;
+  padding: 162px 0;
 }
 
 .section:nth-child(even) {
@@ -12037,6 +12037,10 @@ li {
 
 .row1{
   width: 100% !important;
+}
+
+.section {
+  padding: 30px 0;
 }
 
 .h_header{
