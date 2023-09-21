@@ -11809,6 +11809,25 @@ textarea.form-control {
   border-radius: 0px;
 }
 
+.rec1 {
+  right: -7px;
+  top: 119px;
+  position: absolute;
+  z-index: 1000;
+  display: none;
+  min-width: 15rem;
+  padding: 1rem;
+  margin: 0;
+  font-size: 1rem;
+  color: #555;
+  text-align: left;
+  list-style: none;
+  background-color: black;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0px;
+}
+
 .recdata {
   color: white;
   height: 100%;
@@ -11828,9 +11847,18 @@ textarea.form-control {
   height: 100%;
 }
 
+#reccontainer1 {
+  height: 100%;
+}
+
 .rec li:hover {
   background-color: #eb1111;
 }
+
+.rec1 li:hover {
+  background-color: #eb1111;
+}
+
 
 .show {
   .navlines {
@@ -11960,6 +11988,11 @@ li {
     margin-bottom: 7rem;
   }
 
+  #reccontainer1 {
+    height: 0% !important;
+    margin-bottom: 7rem;
+  }
+
   .navlines {
     font-weight: 0 !important;
     margin-top: 0 !important;
@@ -12005,6 +12038,13 @@ li {
     background-color: rgba(0, 0, 0, 0) !important;
     position: relative !important;
   }
+  .rec1 {
+    top: 0 !important;
+    display: block !important;
+    background-color: rgba(0, 0, 0, 0) !important;
+    position: relative !important;
+  }
+
 
   .recdata {
     color: white;
